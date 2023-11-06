@@ -7,10 +7,10 @@ function Tracking() {
   return (
     <div>
       <Grid container spacing={2}>
-        <Grid item xs={4}>
+        <Grid item xs={2}>
           <Sidebar/>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={10}>
           <Outlet/>
         </Grid>
       </Grid>

@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Tracking />}>
-          <Route index element={<DashBoard />} />
-          <Route path="roadmap" element={<Analysis />} />
+          <Route index element={<Analysis />} />
+          <Route path="analysis" element={<DashBoard />} />
         </Route>
       </Routes>
     </div>
